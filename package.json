@@ -1,0 +1,23 @@
+{
+  "name": "ko-product-1",
+  "version": "1.0.0",
+  "description": "KNOCK OUT TECH'S FIRST PRODUCT ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": [
+    "Wuriyanto <wuriyanto48@yahoo.co.id>",
+    "Abdul Kadir Hasani <your email here>",
+    "Eka Setya Nugraha <your email here>"
+  ],
+  "keyword":[
+    "KOT"
+  ],
+  "license": "ISC",
+  "dependencies": {
+   "express": "^4.14.0",
+   "morgan": "^1.7.0"
+ }
+}

@@ -1,0 +1,7 @@
+KNOCK OUT TECH's FIRST PRODUCT
+
+* Make sure Node js installed on your machine <https://nodejs.org/en/download/current/>
+* Fork this repo to your github account
+* Clone to your local PC
+* open your terminal or command prompt, on your root project execute command 'npm install'
+* start your project, execute command 'npm start'
