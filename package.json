@@ -12,12 +12,38 @@
     "Abdul Kadir Hasani <your email here>",
     "Eka Setya Nugraha <your email here>"
   ],
+  "repository" :{
+    "type" : "git",
+    "url" : "https://github.com/knockouttech/ko-product-1.git"
+  },
   "keyword":[
     "KOT"
   ],
   "license": "ISC",
   "dependencies": {
    "express": "^4.14.0",
-   "morgan": "^1.7.0"
+   "morgan": "^1.7.0",
+   "pg-promise": "^5.3.5",
+   "bluebird": "^3.4.6",
+   "nconf": "^0.8.4",
+   "body-parser": "^1.15.2",
+   "cookie-parser": "^1.4.3",
+   "serve-favicon": "^2.3.0"
+ },
+ "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "chai": "^3.5.0",
+    "codecov": "^1.0.1",
+    "eslint": "^3.8.1",
+    "eslint-plugin-react": "^6.4.1",
+    "flow": "^0.2.3",
+    "flow-bin": "^0.33.0",
+    "hippie": "^0.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.2",
+    "should": "^11.1.0",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0",
+    "sinon-stub-promise": "^3.0.1"
  }
 }
