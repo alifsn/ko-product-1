@@ -11,5 +11,5 @@ const PORT = process.env.port || nconf.get('PORT');
 server.set('port', PORT);
 let app = http.createServer(server);
 app.listen(PORT, () => {
-	console.log('your server is up');
+	console.log('your server is up. listen on port 3000');
 });
